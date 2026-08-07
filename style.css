@@ -1,0 +1,340 @@
+/* =====================================================
+   SkyJet Airways
+   Global Styles
+===================================================== */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f8f9fa;
+
+    color: #212529;
+
+    line-height: 1.6;
+
+}
+
+/* =====================================================
+   Navbar
+===================================================== */
+
+.navbar-brand {
+
+    font-size: 1.4rem;
+
+    font-weight: 700;
+
+}
+
+.nav-link {
+
+    font-weight: 500;
+
+}
+
+.nav-link:hover {
+
+    color: #ffc107 !important;
+
+}
+
+/* =====================================================
+   Hero Section
+===================================================== */
+
+header {
+
+    background-color: #f8f9fa;
+
+}
+
+header h1 {
+
+    font-weight: 700;
+
+}
+
+header .lead {
+
+    color: #6c757d;
+
+}
+
+/* =====================================================
+   Cards
+===================================================== */
+
+.card {
+
+    border: none;
+
+    transition: 0.3s;
+
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.15);
+
+}
+
+.card-img-top {
+
+    height: 220px;
+
+    object-fit: cover;
+
+}
+
+/* =====================================================
+   Buttons
+===================================================== */
+
+.btn-primary {
+
+    padding: .6rem 1.5rem;
+
+}
+
+.btn-warning {
+
+    color: #212529;
+
+    font-weight: 600;
+
+}
+
+.btn-lg {
+
+    padding: .8rem 2rem;
+
+}
+
+/* =====================================================
+   Tables
+===================================================== */
+
+.table th {
+
+    width: 40%;
+
+    white-space: nowrap;
+
+}
+
+/* =====================================================
+   Forms
+===================================================== */
+
+.form-control,
+.form-select {
+
+    padding: .75rem;
+
+}
+
+textarea {
+
+    resize: vertical;
+
+    min-height: 150px;
+
+}
+
+/* =====================================================
+   Booking Summary
+===================================================== */
+
+.sticky-top {
+
+    z-index: 100;
+
+}
+
+/* =====================================================
+   Sections
+===================================================== */
+
+section {
+
+    padding-top: 4rem;
+
+    padding-bottom: 4rem;
+
+}
+
+.bg-light {
+
+    background-color: #f8f9fa !important;
+
+}
+
+/* =====================================================
+   Destination Cards
+===================================================== */
+
+.card-title {
+
+    font-weight: 700;
+
+}
+
+.card-text {
+
+    color: #6c757d;
+
+}
+
+.card-footer {
+
+    background-color: transparent;
+
+}
+
+/* =====================================================
+   Amenities
+===================================================== */
+
+.border.rounded {
+
+    transition: .3s;
+
+}
+
+.border.rounded:hover {
+
+    background-color: #f8f9fa;
+
+    transform: translateY(-4px);
+
+}
+
+/* =====================================================
+   Footer
+===================================================== */
+
+footer {
+
+    font-size: .95rem;
+
+}
+
+footer a {
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+}
+
+footer a:hover {
+
+    color: #ffc107;
+
+}
+
+footer h5 {
+
+    font-weight: 700;
+
+}
+
+/* =====================================================
+   Images
+===================================================== */
+
+img {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+.rounded {
+
+    border-radius: .75rem !important;
+
+}
+
+/* =====================================================
+   Utilities
+===================================================== */
+
+.shadow-sm {
+
+    box-shadow: 0 .125rem .5rem rgba(0,0,0,.08) !important;
+
+}
+
+.shadow {
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+
+}
+
+/* =====================================================
+   Responsive
+===================================================== */
+
+@media (max-width: 991.98px) {
+
+    header {
+
+        text-align: center;
+
+    }
+
+    header img {
+
+        margin-top: 2rem;
+
+    }
+
+    .sticky-top {
+
+        position: static !important;
+
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .display-4,
+    .display-5 {
+
+        font-size: 2.25rem;
+
+    }
+
+    .btn-lg {
+
+        width: 100%;
+
+    }
+
+    .d-flex.gap-3 {
+
+        flex-direction: column;
+
+    }
+
+    footer {
+
+        text-align: center;
+
+    }
+
+    footer .text-md-end {
+
+        text-align: center !important;
+
+        margin-top: 1rem;
+
+    }
+
+}
